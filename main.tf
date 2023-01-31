@@ -1,5 +1,5 @@
 resource "aws_instance" "verinon" {
-  ami = "ami-0ef5a37e767842839"
+  ami = "ami-05a9f425b056b1210"
   instance_type = "t2.micro"
   tags = {
       Name = "tfsample"
