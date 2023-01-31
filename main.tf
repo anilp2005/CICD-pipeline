@@ -1,4 +1,4 @@
-resource "aws_instance" "verinon" {
+resource "aws_instance" "first" {
   ami = "ami-0597375488017747e"
   instance_type = "t2.micro"
   tags = {
